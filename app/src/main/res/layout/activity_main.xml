@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:andorid="http://schemas.android.com/apk/res/android"
+    andorid:layout_width="fill_parent"
+    andorid:layout_height="fill_parent"
+    >
+
+    <TableRow>
+        <TextView
+            andorid:text="사용자 이름 : "
+            andorid:height="150dp" />
+        <EditText
+            andorid:hint="username"
+            andorid:id="@+id/UserName"
+            andorid:width="250dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            andorid:text="비밀번호 : "/>
+        <EditText
+            andorid:hint="password"
+            andorid:id="@+id/txtPassword"
+            andorid:inputType="textPassword" />
+    </TableRow>
+    <TableRow>
+        <TextView />
+        <CheckBox
+            andorid:id="@+id/chkRememberPassword"
+            andorid:layout_width="fill_parent"
+            andorid:layout_height="wrap_content"
+            andorid:text="Remeber Password" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            andorid:id="@+id/button1"
+            andorid:text="Log In" />
+    </TableRow>
+    <LinearLayout
+        andorid:layout_width="match_parent"
+    andorid:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".MainActivity">
+
+        <ImageView
+            andorid:id="@+id/imageView"
+            andorid:layout_width="wrap_content"
+            andorid:layout_height="wrap_content"
+            andorid:src="@drawable/img" />
+
+    </LinearLayout>
+</TableLayout>

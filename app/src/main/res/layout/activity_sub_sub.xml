@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubSubActivity">
+
+    <TextView
+        android:layout_width="316dp"
+        android:layout_height="55dp"
+        android:text="출석체크 페이지"
+        android:textSize="45dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:src="@drawable/img"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#03A9F4"
+        android:gravity="center"
+        android:text="출석체크 버튼"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#03A9F4"
+        android:text="프로필로 돌아가기"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="263dp"
+        tools:layout_editor_absoluteY="682dp"
+        android:id="@+id/backbutton1"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
